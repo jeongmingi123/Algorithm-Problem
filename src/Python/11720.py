@@ -52,5 +52,5 @@ class FindHap():
 str_len = int(input())
 numbers = input()
 
-f=FindHap(str_len,numbers)
+f = FindHap(str_len, numbers)
 print(f.search_str_hap())

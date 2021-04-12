@@ -9,12 +9,9 @@ import os
 # print("sys path 경로 : %s", (sys.path))
 
 def aa():
-    xx = 10
-
-    def bb():
-        xx = 20
-    bb()
-    print(xx)
+    print(x)
 
 
+global x
+x = 10
 aa()
