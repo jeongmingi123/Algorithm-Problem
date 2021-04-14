@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9a63b1c-b1a6-44f4-aecf-3c5872391d0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Python/1152.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Python/2908.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Python/5622.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Python/2908.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Python/2908.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Python/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.2908">
+  <component name="RunManager" selected="Python.5622">
     <configuration name="1152" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-Problem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,28 +93,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2739" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm-Problem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/2739.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2908" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-Problem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +107,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/2908.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5622" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-Problem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/5622.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5622" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.2908" />
         <item itemvalue="Python.1152" />
         <item itemvalue="Python.2675" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.2739" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +186,8 @@
       <workItem from="1617892964348" duration="5000" />
       <workItem from="1617893780137" duration="4639000" />
       <workItem from="1618130350306" duration="10770000" />
-      <workItem from="1618317119077" duration="2767000" />
+      <workItem from="1618317119077" duration="3766000" />
+      <workItem from="1618374752687" duration="5690000" />
     </task>
     <servers />
   </component>
@@ -209,15 +211,16 @@
     <SUITE FILE_PATH="coverage/Algorithm_Problem$3052.coverage" NAME="3052 Coverage Results" MODIFIED="1616509588902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$2739.coverage" NAME="2739 Coverage Results" MODIFIED="1618155160898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$10818.coverage" NAME="10818 Coverage Results" MODIFIED="1618132616816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
-    <SUITE FILE_PATH="coverage/Algorithm_Problem$test.coverage" NAME="test Coverage Results" MODIFIED="1618155190281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
+    <SUITE FILE_PATH="coverage/Algorithm_Problem$test.coverage" NAME="test Coverage Results" MODIFIED="1618376734911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$11720.coverage" NAME="11720 Coverage Results" MODIFIED="1618154149501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$2741.coverage" NAME="2741 Coverage Results" MODIFIED="1617681356445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
-    <SUITE FILE_PATH="coverage/Algorithm_Problem$2908.coverage" NAME="2908 Coverage Results" MODIFIED="1618324157298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
+    <SUITE FILE_PATH="coverage/Algorithm_Problem$2908.coverage" NAME="2908 Coverage Results" MODIFIED="1618324365994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$2438.coverage" NAME="2438 Coverage Results" MODIFIED="1617784385527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$8393.coverage" NAME="8393 Coverage Results" MODIFIED="1617680916012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$2675.coverage" NAME="2675 Coverage Results" MODIFIED="1618238732483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$14681.coverage" NAME="14681 Coverage Results" MODIFIED="1617680265041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$1152.coverage" NAME="1152 Coverage Results" MODIFIED="1618323760636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
+    <SUITE FILE_PATH="coverage/Algorithm_Problem$5622.coverage" NAME="5622 Coverage Results" MODIFIED="1618379988145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$2588.coverage" NAME="2588 Coverage Results" MODIFIED="1617679711622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$10869.coverage" NAME="10869 Coverage Results" MODIFIED="1617635519100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />
     <SUITE FILE_PATH="coverage/Algorithm_Problem$2562.coverage" NAME="2562 Coverage Results" MODIFIED="1618153116817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Python" />

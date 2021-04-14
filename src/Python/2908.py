@@ -4,7 +4,7 @@ class TwoNumComparison:
         self.num2 = num2
 
     def reverseNum1(self):
-        num1_len = 3-1
+        num1_len = 3 - 1
         reverse_num1 = ""
 
         while True:
@@ -17,7 +17,7 @@ class TwoNumComparison:
         return reverse_num1
 
     def reverseNum2(self):
-        num2_len = 3-1
+        num2_len = 3 - 1
         reverse_num2 = ""
 
         while True:
