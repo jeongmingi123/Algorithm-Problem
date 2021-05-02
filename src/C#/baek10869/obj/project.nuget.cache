@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UapvIsUFt5bz8ynuVZv+k+h5ihVDRoKhpdrOQYlbg+f7VnT8bogWERFSyqFDnNb7rDXDEjN1ocb5aHinomOspg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\정민기\\source\\repos\\baek10869\\baek10869.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\정민기\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
