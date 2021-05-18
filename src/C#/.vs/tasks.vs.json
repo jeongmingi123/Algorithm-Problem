@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-baek1712",
+      "appliesTo": "baek1712/",
+      "type": "launch"
+    }
+  ]
+}
