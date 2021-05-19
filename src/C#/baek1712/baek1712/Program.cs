@@ -13,19 +13,17 @@ namespace baek1712
             int variableCost = int.Parse(inputs[1]);
             int notebookPrice = int.Parse(inputs[2]);
 
-
-            if (variableCost > notebookPrice)
+            if (variableCost >= notebookPrice)
             {
                 Console.WriteLine("-1");
             }
+            else
+            {
+                int breakEvenPoint = fixedCost / (notebookPrice - variableCost);
 
-            int breakEvenPoint = fixedCost / (notebookPrice - variableCost);
-
-            Console.WriteLine(breakEvenPoint + 1);
-
-
-
-
+                Console.WriteLine(breakEvenPoint + 1);
+            }
+            
 
         }
     }
