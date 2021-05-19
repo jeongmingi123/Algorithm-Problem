@@ -3,34 +3,7 @@ using System.Collections.Generic;
 namespace ConsoleApp1
 {
     class Program
-    {
-        static int SearchRangeDemicals(int num1, int num2)
-        {
-            List<int> demicals = new List<int>();
-
-            for (int i = num1; i <= num2; i++)
-            {
-                bool isDemical = true;
-                for (int j = 2; j <= i - 1; j++)
-                {
-                    if (i % j == 0)
-                    {
-                        isDemical = false;
-                    }
-                }
-                if (isDemical == true)
-                {
-                    demicals.Add(i);
-                }
-            }
-
-            return 0;
-        }
-
-        static int SearchMinimal(int[] demicals)
-        {
-            return 0;
-        }
+    { 
 
         static void Main(string[] args)
         {
