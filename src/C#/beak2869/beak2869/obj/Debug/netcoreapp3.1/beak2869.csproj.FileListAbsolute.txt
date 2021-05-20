@@ -1,0 +1,12 @@
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\bin\Debug\netcoreapp3.1\beak2869.exe
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\bin\Debug\netcoreapp3.1\beak2869.deps.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\bin\Debug\netcoreapp3.1\beak2869.runtimeconfig.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\bin\Debug\netcoreapp3.1\beak2869.runtimeconfig.dev.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\bin\Debug\netcoreapp3.1\beak2869.dll
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\bin\Debug\netcoreapp3.1\beak2869.pdb
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\obj\Debug\netcoreapp3.1\beak2869.AssemblyInfoInputs.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\obj\Debug\netcoreapp3.1\beak2869.AssemblyInfo.cs
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\obj\Debug\netcoreapp3.1\beak2869.csproj.CoreCompileInputs.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\obj\Debug\netcoreapp3.1\beak2869.dll
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\obj\Debug\netcoreapp3.1\beak2869.pdb
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\beak2869\beak2869\obj\Debug\netcoreapp3.1\beak2869.genruntimeconfig.cache
