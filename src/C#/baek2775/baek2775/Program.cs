@@ -83,15 +83,6 @@ namespace baek2775
               
                 results.Add(peopleCount[layer, number]);
 
-                for (int j = 0; j <= layer; j++) // 1층부터 layer 층까지
-                {
-                    for (int k = 0; k < 15; k++)
-                    {
-                        Console.Write($"{peopleCount[j,k]} ");
-                    }
-                    Console.WriteLine();
-                }
-
             }
 
             for (int i = 0; i < results.Count; i++)
