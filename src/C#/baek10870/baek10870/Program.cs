@@ -34,8 +34,7 @@ namespace baek10870
             }
 
 
-
-            return searchFibonacciValue(sequence - 1) + (sequence - 2);
+            return searchFibonacciValue(sequence - 1) + searchFibonacciValue(sequence - 2);
         }
 
         static void Main(string[] args)
