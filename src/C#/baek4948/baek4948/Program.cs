@@ -7,7 +7,7 @@ namespace baek4948
     class Program
     {
 
-        public static int SearchDecimalCount(int num1, int num2)
+        public static int SearchDecimalCount(int num1, int num2) // num1보다 크고, num2보다 작거나 같은 범위에서 소수의 개수를 반환하는 함수
         {
             int decimalCount = 0;
 
