@@ -33,7 +33,6 @@ namespace baek10870
                 return 0;
             }
 
-
             return searchFibonacciValue(sequence - 1) + searchFibonacciValue(sequence - 2);
         }
 
