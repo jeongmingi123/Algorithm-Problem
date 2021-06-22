@@ -5,58 +5,61 @@ namespace baek1065
 {
     class Program
     {
+        // num값이 등차수열 인지에 대한 함수
+        static bool IsArithmeticSequence(int num)
+        {
+            string number = num.ToString();
+
+            int numberZeroIndex = int.Parse(number[0].ToString());
+            int numberFirstIndex = int.Parse(number[1].ToString());
+            int numberTwoIndex = int.Parse(number[2].ToString());
+
+            if (numberZeroIndex > numberFirstIndex && numberFirstIndex > numberTwoIndex)
+            {
+                if (numberZeroIndex - numberFirstIndex == numberFirstIndex - numberTwoIndex)
+                {
+                    return true;
+                }
+            }
+            else if (numberZeroIndex < numberFirstIndex && numberFirstIndex < numberTwoIndex)
+            {
+                if (numberFirstIndex - numberZeroIndex == numberTwoIndex - numberFirstIndex)
+                {
+                    return true;
+                }
+            }
+            else if (numberZeroIndex == numberFirstIndex && numberTwoIndex == numberFirstIndex)
+            {
+                return true;
+            }
+            return false;
+        }
+
         static void Main(string[] args)
         {
             string inputN = Console.ReadLine();
 
-            if (inputN.Length == 1 || inputN.Length == 2)
+            if (inputN.Length < 3)
             {
                 Console.WriteLine(inputN);
             }
             else
             {
-                int count = 99;
-                List<int> list = new List<int>();
-                for (int i = 100; i <= int.Parse(inputN); i++)
+                int hansooCount = 99;
+
+                int inputNLength = int.Parse(inputN);
+
+                for (int i = 100; i <= inputNLength; i++)
                 {
-                    string number = i.ToString();
-
-                    int inputNZeroIndex = int.Parse(number[0].ToString());
-                    int inputNFirstIndex = int.Parse(number[1].ToString());
-                    int inputNTwoIndex = int.Parse(number[2].ToString());
-
-                    if (inputNZeroIndex > inputNFirstIndex && inputNFirstIndex > inputNTwoIndex)
+                    if (IsArithmeticSequence(i) == true)
                     {
-                        if (inputNZeroIndex - inputNFirstIndex == inputNFirstIndex - inputNTwoIndex)
-                        {
-                            count++;
-                            list.Add(i);
-                        }
+                        hansooCount++;
                     }
-                    else if (inputNZeroIndex < inputNFirstIndex && inputNFirstIndex < inputNTwoIndex)
-                    {
-                        if (inputNFirstIndex - inputNZeroIndex == inputNTwoIndex - inputNFirstIndex)
-                        {
-                            count++;
-                            list.Add(i);
-                        }
-                    }
-                    else if (inputNZeroIndex == inputNFirstIndex && inputNTwoIndex == inputNFirstIndex)
-                    {
-                        count++;
-                        list.Add(i);
-                    }
-
                 }
-                
-
-                Console.WriteLine(count);
-                Console.WriteLine("------------");
-                for(int i = 0; i < list.Count; i++)
-                {
-                    Console.WriteLine(list[i]);
-                }
+                Console.WriteLine(hansooCount);
             }
+
         }
     }
 }
+

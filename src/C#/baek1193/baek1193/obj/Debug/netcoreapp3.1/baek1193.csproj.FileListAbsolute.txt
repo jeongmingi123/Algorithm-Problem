@@ -1,0 +1,13 @@
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\bin\Debug\netcoreapp3.1\baek1193.exe
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\bin\Debug\netcoreapp3.1\baek1193.deps.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\bin\Debug\netcoreapp3.1\baek1193.runtimeconfig.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\bin\Debug\netcoreapp3.1\baek1193.runtimeconfig.dev.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\bin\Debug\netcoreapp3.1\baek1193.dll
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\bin\Debug\netcoreapp3.1\baek1193.pdb
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.csprojAssemblyReference.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.AssemblyInfoInputs.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.AssemblyInfo.cs
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.csproj.CoreCompileInputs.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.dll
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.pdb
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\baek1193\baek1193\obj\Debug\netcoreapp3.1\baek1193.genruntimeconfig.cache
