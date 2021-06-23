@@ -26,7 +26,7 @@ namespace baek2839_2_
                 }
                 else
                 {
-                    iCount += 1;
+                    iCount++;
                     fiveKilogramCount = (inputNumber / 5) - iCount;
                     threeKilogramCount = ((5 * iCount) + (inputNumber % 5)) / 3;
                 }
