@@ -10,7 +10,7 @@ namespace baek2839_3_
 
             int i = 0;
             int fiveCount = number / 5;
-            int threeCount = (number % 5) % 3;
+            int threeCount = (number % 5) / 3;
 
             while (true)
             {
@@ -29,7 +29,7 @@ namespace baek2839_3_
                 {
                     i++;
                     fiveCount = (number / 5) - i;
-                    threeCount = (5*fiveCount + ((number) % 5) % 3) + i;
+                    threeCount = ((5 * i) + ((number) % 5)) / 3;
                 }
             }
         }
