@@ -1,0 +1,12 @@
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\bin\Debug\netcoreapp3.1\codeup1928.exe
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\bin\Debug\netcoreapp3.1\codeup1928.deps.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\bin\Debug\netcoreapp3.1\codeup1928.runtimeconfig.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\bin\Debug\netcoreapp3.1\codeup1928.runtimeconfig.dev.json
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\bin\Debug\netcoreapp3.1\codeup1928.dll
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\bin\Debug\netcoreapp3.1\codeup1928.pdb
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\obj\Debug\netcoreapp3.1\codeup1928.AssemblyInfoInputs.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\obj\Debug\netcoreapp3.1\codeup1928.AssemblyInfo.cs
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\obj\Debug\netcoreapp3.1\codeup1928.csproj.CoreCompileInputs.cache
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\obj\Debug\netcoreapp3.1\codeup1928.dll
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\obj\Debug\netcoreapp3.1\codeup1928.pdb
+C:\Users\정민기\Documents\coding\Algorithm Problem\Algorithm-Problem\src\C#\codeup1928\codeup1928\obj\Debug\netcoreapp3.1\codeup1928.genruntimeconfig.cache
