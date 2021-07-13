@@ -4,7 +4,7 @@ namespace baek8958
 {
     class Program
     {
-        static int getScore(string s)
+        static int GetScore(string s)
         {
             int score = 0;
             int total = 0;
@@ -34,7 +34,7 @@ namespace baek8958
             for (int i = 0; i < testCase; i++)
             {
                 string line = Console.ReadLine();
-                results[i] = getScore(line);
+                results[i] = GetScore(line);
             }
 
             foreach (int result in results)
