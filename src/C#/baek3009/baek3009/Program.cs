@@ -42,7 +42,6 @@ namespace baek3009
 
             Console.Write($"{x[3]} {y[3]}");
 
-
         }
     }
 }
