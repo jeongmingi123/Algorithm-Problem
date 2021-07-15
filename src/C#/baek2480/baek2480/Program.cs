@@ -25,6 +25,7 @@ namespace baek2480
 
                 return max;
             }
+
             else
             {
                 for (int i = 0; i < 2; i++)
@@ -56,6 +57,7 @@ namespace baek2480
                         ++count;
                     }
                 }
+
                 if (count > max)
                 {
                     max = count;
@@ -67,17 +69,17 @@ namespace baek2480
 
         static int CalculateReware(int eyesCount, int eyes)
         {
-            if (eyesCount == 3)
+            switch (eyesCount)
             {
-                return 10000 + eyes * 1000;
+                case 1:
+                    return eyes * 100;
+                case 2:
+                    return 1000 + eyes * 100;
+                case 3:
+                    return 10000 + eyes * 1000;
+                default:
+                    return 0;
             }
-
-            else if (eyesCount == 2)
-            {
-                return 1000 + eyes * 100;
-            }
-
-            return eyes * 100;
         }
         static void Main(string[] args)
         {
