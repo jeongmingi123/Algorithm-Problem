@@ -11,6 +11,7 @@ namespace baek2752
                 int temp = arr[i];
                 int min = arr[i+1];
                 int minIndex = i+1;
+
                 for (int j = i + 1; j < arr.Length; j++)
                 {
 
@@ -44,7 +45,6 @@ namespace baek2752
             {
                 Console.Write($"{nums[i]} ");
             }
-
 
         }
     }
