@@ -4,10 +4,10 @@ namespace baek1110_2_
 {
     class Program
     {
-        static void getCycleToReturnOriginalNumberRecursive(int originalNum, int left, int right, int count)
+        static void getCycleToReturnOriginalNumberRecursive(int originalNum, int leftNum, int rightNum, int count)
         {
-            int sum = left + right; // 8
-            int result = int.Parse(string.Format($"{right}{sum % 10}"));
+            int sum = leftNum + rightNum; // 8
+            int result = int.Parse(string.Format($"{rightNum}{sum % 10}"));
 
             if (result == originalNum)
             {
@@ -15,7 +15,7 @@ namespace baek1110_2_
                 return;
             }
 
-            getCycleToReturnOriginalNumberRecursive(originalNum, right, sum % 10, count + 1); // 
+            getCycleToReturnOriginalNumberRecursive(originalNum, rightNum, sum % 10, count + 1); // 
         }
         static void Main(string[] args)
         {
