@@ -45,10 +45,7 @@ namespace baek1284
                 return 2 + GetSumTotalLengthByNumberRecursive(num, index + 1);
             }
 
-            else
-            {
-                return 3 + GetSumTotalLengthByNumberRecursive(num, index + 1);
-            }
+            return 3 + GetSumTotalLengthByNumberRecursive(num, index + 1);
         }
 
         const int WHITE_SPACE_WITH_LEFT_AND_RIGHT = 2;
