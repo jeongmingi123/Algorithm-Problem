@@ -5,7 +5,7 @@ namespace baek1076
 {
     class Program
     {
-        static int GetTotalResistanceValue(int num1, int num2, int num3)
+        static long GetTotalResistanceValue(int num1, int num2, int num3)
         {
             string temp = "";
 
@@ -20,7 +20,7 @@ namespace baek1076
 
             }
 
-            return int.Parse(temp) * num3;
+            return long.Parse(temp) * num3;
         }
 
         static int SearchResistanceValue(string color)
@@ -71,7 +71,8 @@ namespace baek1076
             int num2 = SearchResistanceValue(color[1]);
             int num3 = SearchResistanceMultiply(color[2]);
 
-            Console.WriteLine(GetTotalResistanceValue(num1, num2, num3));
+            long result = GetTotalResistanceValue(num1, num2, num3);
+            Console.WriteLine(result);
         }
     }
 }
