@@ -4,30 +4,35 @@ namespace baek1173
 {
     class Program
     {
-        static int getExerciseTime(int N, int X, int M, int T, int R, int time, int tempN, int m)
+        static int getExerciseTimeRecursive(int N, int X, int M, int T, int R, int minTime, int exerciseTime, int m)
         {
-            if (m > X)
+            if (M - m < T)
             {
-                return getExerciseTime(N, m, M, T, R, ++time, tempN, m);
+                return -1;
             }
 
-            if (tempN == N)
+            else if (m > X)
             {
-                return X <= M ? time : -1;
+                return getExerciseTimeRecursive(N, m, M, T, R, minTime, exerciseTime, m);
+            }
+
+            else if (exerciseTime == N)
+            {
+                return X <= M ? minTime : -1;
 
             }
 
             else if (X + T <= M)
             {
-                return getExerciseTime(N, X + T, M, T, R, ++time, ++tempN, m);
+                return getExerciseTimeRecursive(N, X + T, M, T, R, ++minTime, ++exerciseTime, m);
             }
 
             else if (X + T > M)
             {
-                return getExerciseTime(N, X - R, M, T, R, ++time, tempN, m);
+                return getExerciseTimeRecursive(N, X - R, M, T, R, ++minTime, exerciseTime, m);
             }
 
-            return 0;
+            return -1;
         }
         static void Main(string[] args)
         {
@@ -39,7 +44,7 @@ namespace baek1173
             int T = int.Parse(line[3]);
             int R = int.Parse(line[4]);
 
-            int time = getExerciseTime(N, m, M, T, R, 0, 0, m);
+            int time = getExerciseTimeRecursive(N, m, M, T, R, 0, 0, m);
             Console.WriteLine(time);
         }
     }
