@@ -4,22 +4,27 @@ namespace baek1173
 {
     class Program
     {
-        static int getExerciseTime(int N, int m, int M, int T, int R, int time, int index)
+        static int getExerciseTime(int N, int X, int M, int T, int R, int time, int tempN, int m)
         {
-            if (index == N)
+            if (m > X)
             {
-                return m <= M ? time : -1;
+                return getExerciseTime(N, m, M, T, R, ++time, tempN, m);
+            }
+
+            if (tempN == N)
+            {
+                return X <= M ? time : -1;
 
             }
 
-            else if (m + T <= M)
+            else if (X + T <= M)
             {
-                return getExerciseTime(N, m + T, M, T, R, time + 1, index + 1);
+                return getExerciseTime(N, X + T, M, T, R, ++time, ++tempN, m);
             }
 
-            else if (m + T > M)
+            else if (X + T > M)
             {
-                return getExerciseTime(N, m - R, M, T, R, time + 1, index);
+                return getExerciseTime(N, X - R, M, T, R, ++time, tempN, m);
             }
 
             return 0;
@@ -34,7 +39,7 @@ namespace baek1173
             int T = int.Parse(line[3]);
             int R = int.Parse(line[4]);
 
-            int time = getExerciseTime(N, m, M, T, R, 0, 0);
+            int time = getExerciseTime(N, m, M, T, R, 0, 0, m);
             Console.WriteLine(time);
         }
     }
