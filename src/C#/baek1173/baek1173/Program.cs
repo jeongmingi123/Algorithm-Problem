@@ -27,13 +27,10 @@ namespace baek1173
                 return getExerciseTimeRecursive(N, X + T, M, T, R, m, ++minTime, ++exerciseTime);
             }
 
-            else if (X + T > M)
-            {
-                return getExerciseTimeRecursive(N, X - R, M, T, R, m, ++minTime, exerciseTime);
-            }
+            return getExerciseTimeRecursive(N, X - R, M, T, R, m, ++minTime, exerciseTime);
 
-            return -1;
         }
+
         static void Main(string[] args)
         {
             string[] line = Console.ReadLine().Split();

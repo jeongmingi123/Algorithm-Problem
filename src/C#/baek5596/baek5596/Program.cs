@@ -4,14 +4,14 @@ namespace baek5596
 {
     class Program
     {
-        static int getTotalScore(int[] nums, int index)
+        static int GetTotalScoreRecursive(int[] nums, int index)
         {
             if (index == nums.Length)
             {
                 return 0;
             }
 
-            return nums[index] + getTotalScore(nums, index + 1);
+            return nums[index] + GetTotalScoreRecursive(nums, index + 1);
 
         }
 
@@ -32,7 +32,7 @@ namespace baek5596
                     }
                 }
 
-                else if (i == 1)
+                else
                 {
                     for (int j = 0; j < 4; j++)
                     {
@@ -42,8 +42,8 @@ namespace baek5596
 
             }
 
-            int minGookTotalScore = getTotalScore(minGookScores, 0);
-            int jungboTotalScore = getTotalScore(jungboScores, 0);
+            int minGookTotalScore = GetTotalScoreRecursive(minGookScores, 0);
+            int jungboTotalScore = GetTotalScoreRecursive(jungboScores, 0);
 
             if (minGookTotalScore >= jungboTotalScore)
             {

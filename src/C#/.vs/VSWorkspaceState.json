@@ -1,16 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\baek1712",
-    "\\baek1929",
     "\\baek1929\\baek1929",
-    "\\baek1929\\baek1929\\baek1929",
-    "\\baek2839",
+    "\\baek2439",
     "\\baek2839\\baek2839",
-    "\\baek4948",
     "\\baek4948\\baek4948",
-    "\\beak2869",
-    "\\beak2869\\beak2869"
+    "\\beak2869\\beak2869",
+    "\\prog음양더하기",
+    "\\prog음양더하기\\prog음양더하기"
   ],
+  "SelectedNode": "\\prog음양더하기\\prog음양더하기\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
