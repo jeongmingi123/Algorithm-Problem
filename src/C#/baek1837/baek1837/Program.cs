@@ -4,45 +4,32 @@ namespace baek1837
 {
     class Program
     {
-        static bool IsSosu(int num)
+
+        static string JudgePassword(int P, int p, int q, int qTemp, int K)
         {
-            if (num == 1)
+            if ((p * q > P) && ((p + 1) * qTemp <= P))
             {
-                return false;
+                return JudgePassword(P, p + 1, qTemp, qTemp, K);
+
             }
 
-            for (int i = 2; i < num; i++)
+            if (p * q == P)
             {
-                if (num % i == 0)
+                if (p <= K || q <= K)
                 {
-                    return false;
+                    if (p >= q)
+                    {
+                        return $"BAD {q}";
+                    }
+                    else
+                    {
+                        return $"BAD {p}";
+                    }
                 }
-            }
-
-            return true;
-        }
-
-        static string JudgePassword(int P, int p, int q, int qTemp)
-        {
-            if (p * q > P)
-            {
-                if ((p + 1) * qTemp <= P)
-                {
-                    return JudgePassword(P, p + 1, qTemp, qTemp);
-                }
-
-                else
-                {
-                    return "BAD";
-                }
-            }
-
-            if (IsSosu(p) == true && IsSosu(q) == true && p * q == P)
-            {
                 return "GOOD";
             }
 
-            return JudgePassword(P, p, q + 1, qTemp);
+            return JudgePassword(P, p, q + 1, qTemp, K);
 
         }
         static void Main(string[] args)
@@ -51,7 +38,7 @@ namespace baek1837
             int P = int.Parse(line[0]);
             int K = int.Parse(line[1]);
 
-            Console.WriteLine(JudgePassword(P, K, K, K));
+            Console.WriteLine(JudgePassword(P, 2, 2, 2, K));
         }
     }
 }
