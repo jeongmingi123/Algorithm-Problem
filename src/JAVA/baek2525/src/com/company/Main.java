@@ -30,16 +30,16 @@ class Oven {
         int addingHours = 0;
 
         if (addingMinute >= 60) {
-            addingHours = addingMinute / 60; // 1
-            addingMinute = addingMinute % 60; // 40
+            addingHours = addingMinute / 60;
+            addingMinute = addingMinute % 60;
         }
 
-        this.hour += addingHours; // 24
-        this.minute += addingMinute; // 90
+        this.hour += addingHours;
+        this.minute += addingMinute;
 
         if (this.minute >= 60) {
-            this.minute -= 60; // 30
-            ++this.hour; // 25
+            this.minute -= 60;
+            ++this.hour; 
         }
 
         if (this.hour >= 24) {
