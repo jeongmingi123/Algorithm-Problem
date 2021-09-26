@@ -11,7 +11,7 @@ public class Main {
         int startMinute = scan.nextInt();
         int addingMinute = scan.nextInt();
 
-        Oven oven = new Oven(startHour,startMinute);
+        Oven oven = new Oven(startHour, startMinute);
         System.out.println(oven.CalculateCompletedTimeBy(addingMinute));
     }
 }
@@ -39,7 +39,7 @@ class Oven {
 
         if (this.minute >= 60) {
             this.minute -= 60;
-            ++this.hour; 
+            ++this.hour;
         }
 
         if (this.hour >= 24) {

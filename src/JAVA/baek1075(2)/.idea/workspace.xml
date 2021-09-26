@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43842be4-9af0-4396-915a-466560f227d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baek2525/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baek2525/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/out/production/sample/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/sample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sample/src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1yensdKO7GNh3nzYvOPWLNd7xPW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43842be4-9af0-4396-915a-466560f227d6" name="Default Changelist" comment="" />
+      <created>1632621132059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632621132059</updated>
+      <workItem from="1632621133142" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
