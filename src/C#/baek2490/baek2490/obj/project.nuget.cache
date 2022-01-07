@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wbBObRw4qKhopa7K7UBy/OmUNwVRJsAMpoafp8QfJmIvPowsAe+5nfwW3d7YFBI8scjP4wnma+fyNqWIigpCog==",
+  "dgSpecHash": "QYLRx+JHwTp0x2ZkshAp5BA+IgJMtk1VeiuNe4fZN6KSFg5RkYuhljLmZ6xCazysmHgnlgUZgw3C5I06VIpEWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\정민기\\Documents\\coding\\Algorithm Problem\\Algorithm-Problem\\src\\C#\\baek2490\\baek2490\\baek2490.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\정민기\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
