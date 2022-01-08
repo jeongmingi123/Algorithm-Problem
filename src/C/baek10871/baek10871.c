@@ -12,7 +12,9 @@ int main(void) {
 	scanf_s("%d %d", &n_length, &x);
 
 	for (i = 0; i < n_length; i++) {
+
 		scanf_s("%d", &temp);
+
 		if (temp < x) {
 			nums_over_x[i] = temp;
 		}
