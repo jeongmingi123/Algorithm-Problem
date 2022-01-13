@@ -1,13 +1,19 @@
 #include <stdio.h>
 
-int* get_desimals(const int M, const int N) {
-	int is_desimal = 1;
+int main(void) {
+	int M;
+	int N;
+	int desimals_total = 0;
+	int min_desimal = 0;
 	int desimal_idx = 0;
 
-	int desimals[300] = { 0, };
+	int is_desimal = 1;
 
 	size_t i;
 	size_t j;
+
+	scanf_s("%d", &M);
+	scanf_s("%d", &N);
 
 	for (i = M; i <= N; i++) {
 		if (i == 1) {
@@ -22,44 +28,18 @@ int* get_desimals(const int M, const int N) {
 		}
 
 		if (is_desimal == 1) {
-			desimals[desimal_idx++] = i;
+			desimals_total += i;
 		}
-	}
-	return desimals;
-}
 
-int get_min(int* desimals) {
-	int min;
-
-	size_t i;
-
-	min = desimals[0];
-	for (i = 0; desimals[i] != 0; i++) {
-		if (min > desimals[i]) {
-			min = desimals[i];
+		if (is_desimal == 1 && desimal_idx == 0) {
+			min_desimal = i;
+			++desimal_idx;
 		}
-	}
-	return min;
-}
 
-int main(void) {
-	int* arr;
+		if (min_desimal > i) {
+			min_desimal = i;
+		}
 
-	int M;
-	int N;
-	int min;
-	int desimals_total = 0;
-
-	size_t i;
-
-	scanf_s("%d", &M);
-	scanf_s("%d", &N);
-
-	arr = get_desimals(M,N);
-	min = get_min(arr);
-
-	for (i = 0; arr[i] != 0; i++) {
-		desimals_total += arr[i];
 	}
 
 	if (desimals_total == 0) {
@@ -67,7 +47,7 @@ int main(void) {
 	}
 	else {
 		printf("%d\n", desimals_total);
-		printf("%d\n", min);
+		printf("%d\n", min_desimal);
 	}
 
 	return 0;
